@@ -1,0 +1,1489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif !important;
+}
+body{
+    background: #f8fbff;
+}
+.container-navbar{
+    display: flex;
+    height: 76px;
+    width: 100%;
+    border: 2px solid black
+}
+
+.nav-logo{
+   height: 68px;
+   width: 150px;
+}
+.search-bar{
+    width: 36%;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+}
+.search_space{
+    border-radius: 4px;
+    border: 1px solid #118aef;
+    height: 38px;
+    font-size: 14px;
+    color: #118aef;
+    font-weight: 400;
+    padding-left: 64px;
+    width: 100%;
+}
+.search_space:focus{
+    outline: none;
+}
+.go{
+    height: 20px;
+}
+::placeholder{
+    color: #007eff;
+}
+.Search-btn{
+    cursor: pointer;
+   display: inline-block;
+   position: absolute;
+   color: #118aef;
+   left: 1px;
+   top: 1px;
+   padding: 4px 12px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    border: white;
+}
+/***************************Bootstrap alteration ********************/
+.nav-item{
+    margin: 0px 20px;
+    color: #808890;
+}
+.container{
+    margin: 0px;
+}
+.navbar{
+    margin: 10px 0px !important;
+    padding: 0px 160px !important;
+}
+.nav-link:hover{
+    color: #118aef !important;
+}
+
+/* *******************BELOW NAVBAR********************* */
+.container-below-nav{
+    background-image: url(../img/below-nav-2.png);
+    background-size: 100% 100%;
+    padding: 50px 180px 0px;
+    color: white;
+}
+.info{
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 50px;
+}
+.bold-heading{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.28;
+    margin-bottom: 20px;
+}
+.below-tagline-details{
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.67;
+}
+.bold-number{
+    font-weight: 700;
+}
+.explore-btn{
+    margin-top: 45px;
+}
+.explore-btn a{
+    color: white;
+}
+.banner-img{
+    width: 590px;
+    height: 350px;
+    border-radius: 16px 16px 0px 0px;
+}
+.explore{
+    padding: 12px 60px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color:#118aef;
+}
+.live-video{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.iframe-video {
+    height: 330px;
+    width: 590px;
+    border-radius: 33px;
+}
+/*************PARTNER Section****************** */
+.container-partner{
+    padding: 20px 180px;
+    padding-bottom: 44px;
+}
+#first-li{
+    margin-left: 0px;
+}
+#last-li{
+    margin-right: 0px;
+}
+#ibm{
+    margin: 10px 0px;
+}
+.title-partner{
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
+.partner-logos{
+    list-style:none;
+}
+.partner-logos li{
+    display: inline-block;
+    margin: 10px 18px;
+}
+.caltech-logo{
+    height: 40px;
+    width: 170px;
+}
+.purdue-logo{
+    width: 110px;
+    height: 30px;
+}
+.umass-logo{
+    width: 200px;
+    height: 40px;
+}
+.aws-logo{
+    height: 35px;
+    width: 60px;
+}
+.ibm-logo{
+    height: 59px;
+    width: 100px;
+}
+.microsoft-logo{
+    height: 55px;
+    width: 140px;
+}
+.facebook-logo{
+    height: 60px;
+    width: 120px;
+}
+
+/*************PARTNER Section****************** */
+.courses-offered{
+    padding: 20px 180px;
+}
+.title-message-postgrad{
+    font-size: 32px;
+    font-weight: 200;
+    color: #272c37;
+    letter-spacing: 0.5px;
+}
+.postgrad-title{
+    font-size: 26px;
+    margin-top: 40px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #272c37;
+}
+.sub-text{
+    font-size: 17px;
+    margin-top: 16px;
+    color: #51565e;
+}
+
+/* **********************ADVANTAGE SECTION*********************** */
+.advantages-list{
+    list-style: none;
+}
+.adv-item{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #51565e;
+}
+.adv-item img{
+    height: 30px;
+    width: 30px;
+}
+.postgrad-list{
+    margin-top: 44px;
+}
+.courses-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.pg-course{
+    width: 370px;
+    box-shadow: 0 2px 5px 0 rgb(17 121 239 / 15%);
+    border-radius: 0px 0px 16px 16px;
+}
+.pg-course-card a{
+    color: black;
+    text-decoration: none;
+}
+.img-pg-card img{
+    height: 230px;
+    width: 370px;
+    border-radius: 16px 16px 5px 5px;
+}
+.detail-pg-card{
+    margin: -24px 10px 0 10px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    padding: 20px 25px;
+}
+.course-title-card{
+    font-size: 18px;
+    line-height: 1.44;
+    color: #272c37;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.info-mnths{
+    margin-bottom: 8px;
+}
+.info-list{
+    font-size: 16px;
+    color: #51565e;
+}
+.info-logo{
+    height: 16px;
+    margin: 0px 8px;
+}
+.through-pg-card{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.through-umass{
+    height: 50px;
+    width: 140px;
+}
+.through-caltech{
+    height: 50px;
+    width: 140px;
+}
+
+/* master-program */
+.coloured-logo{
+    height: 75px;
+    padding-left: 15px;
+    position: relative;
+    top: 10px;
+}
+.m-course {
+    width: 360px;
+    box-shadow: rgb(17 121 239 / 15%) 0px 2px 5px 0px;
+}
+.coloured-badge{
+    height: 61px;
+    border-radius: 6px 6px 0px 0px;
+}
+.grid-1{
+    background: #ff5d63;
+    background-image: radial-gradient(circle at 28% 36%, #ff9195, #ff5d63 66%);
+}
+.grid-2 {
+    background: #0099c3;
+    background-image: radial-gradient(circle at 28% 36%, #00c5e3, #0099c3 99%);
+}
+.grid-3 {
+    background: #d2ac00;
+    background-image: radial-gradient(circle at 38% 32%, #f4c652, #d2ac00 92%);
+}
+.mar{
+    margin-left: 0px;
+}
+.master-card-detail{
+    padding: 40px 30px 35px;
+}
+.info-master,.prog-benefits{
+    margin-top: 16px;
+    color: #51565e;
+}
+.prog-benefits{
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.mar-top{
+    margin-top: 16px;
+}
+.display{
+    display: inline-block;
+}
+.prog-benefits img{
+    vertical-align:middle;
+    height: 15px;
+    margin-right: 5px;
+}
+/* certification-section */
+.star{
+    height: 16px;
+}
+.info-detail{
+    margin-top: 16px;
+    color: #51565e;
+    font-size: 15px;
+}
+.c-course{
+    padding: 16px 25px;
+    position: relative;
+    flex: 0 0 372px;
+}
+.box{
+    display: inline-block;
+    margin: 10px 0px;
+    background: #e2edf9;
+    line-height: 22px;
+    padding: 0px 10px;
+    font-size: 12px;
+    color: #6C7480;
+    text-transform: uppercase;
+    position: relative;
+}
+.mark-tag{
+    background-color: #ff8c90;
+    width: 7px;
+    height: 35px;
+    position: absolute;
+    left: 0px;
+    top: 11px;
+}
+.mark-tag-below{
+    background-color: #ff8c90;
+    width: 7px;
+    height: 35px;
+    position: absolute;
+    left: 0px;
+}
+.colr-2{
+    background: #00d8c0;
+}
+.colr-3{
+    background: #f1c44a;
+}
+.m-mouse-card{
+    position: relative;
+}
+.m-course-card:hover{
+   text-decoration: none;
+}
+/* feature-section */
+.feature-section{
+    padding: 50px 180px;
+    background-color: white;
+}
+.feature-title{
+    font-size: 14px;
+    margin-top: 60px;
+}
+.features{
+    margin-top: 35px;
+}
+.below-feature-title{
+    font-size: 32px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    color: #272c37;
+}
+.feature-card{
+    display: inline-block;
+    width: 260px;
+    padding: 15px 10px;
+    box-shadow: rgb(17 121 239 / 15%) 0px 2px 5px 0px;
+}
+.feature-card img{
+    height: 40px;
+}
+.margin{
+    margin: 0px 25px;
+}
+.feature-card-title{
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.feature-card-content{
+    color: #6C7480;
+    line-height: 1.43;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+/* training-section */
+.team-training-section{
+    padding: 60px 180px;
+}
+.left-section-training{
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+}
+.below-training-title{
+    margin-top: 35px;
+    color: #51565e;
+}
+.margin-top{
+    margin-top: 90px;
+}
+.training-title{
+    font-size: 45px;
+}
+.request{
+    padding: 10px 40px;
+}
+.right-section-training{
+    display: inline-block;
+    background: url(../img/map.jpg);
+    background-position: 0 24px;
+    padding: 0px 0 32px 90px;
+    background-size: 795px 420px;
+    width: 690px;
+}
+.right-section-text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #51565e;
+    margin-top: 10px;
+}
+.partner-img{
+    height: 330px;
+    width: 600px;
+}
+.brand{
+    width: 170px;
+    height: 80px;
+    margin-right: 28px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 9px 2px rgb(0 61 130 / 18%);
+    display: inline-block;
+    margin-right: 23px;
+    margin-bottom: 30px;
+    background: #fff;
+    text-align: center;
+}
+.brand-img{
+    margin-top: 30px;
+}
+.brand-i{
+    margin-top: 20px;
+}
+/* Awards Section */
+.awards-section{
+    padding: 60px 180px;
+}
+.awards-title{
+    font-size: 28px;
+    font-weight: 600;
+}
+.award{
+    display: inline-block;
+    margin: 35px 34px;
+    text-align: center;
+    width: 160px;
+}
+.award-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.award-text{
+    font-size: 14px;
+}
+.addorRemove{
+    display: block;
+}
+#click{
+    background-color: #2e98f0;
+    border-color: #2e98f0;
+}
+.dropdown-item{
+   color: #6C7480;
+}
+
+/* below section from other source code */
+/**************Sub-title section*****************/
+.sub-title-section{
+    background-color: #1E283C;
+    color: #ffffff;
+    font-size: 45px;
+    line-height: 55px;
+    padding: 80px 0px;
+}
+.sub-title{
+    width:675px;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+}
+/* sub-title-quote */
+.weight{
+    width: 770px;
+}
+/* querry-section */
+.querry-section{
+    padding: 60px 200px;
+}
+.input-field{
+    display: inline-block;
+    margin-left: 80px;
+    vertical-align: top;
+    margin-top: 20px;
+    color: #1E283C;
+    font-size: 14px;
+}
+.querry-image{
+    height: 400px;
+    width: 520px;
+    margin-left: 70px;
+}
+#name-input,#email-input,#subject-input,#message-input{
+    margin-bottom: 15px;
+    background-color: #DFE6F1;
+    border: none;
+    border-radius: 5px;
+}
+#name-input,#email-input,#subject-input{
+    width: 400px;
+    height: 33px;
+}
+#message-input:focus{
+   padding-top: 10px;
+}
+#message-input{
+    width: 400px;
+    height: 150px;
+}
+#name-input,#email-input,#subject-input,#message-input:focus{
+    outline: none;
+    font-size: 14px;
+    color: #50668F;
+    padding: 0px 10px;
+}
+#message-input:focus{
+    text-align: left;
+}
+.name,.email,.subject,.message{ 
+    margin-bottom: 6px;
+    margin-left: 6px;
+}
+.msg-btn{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #7F1AFE;
+    padding: 12px 10px;
+    border-radius: 6px;
+    width: 180px;
+}
+.msg-btn a{
+    text-decoration: none;
+    color: white;
+}
+/* footer-container */
+.footer-container{
+    background-color: #1E283C;
+    padding: 40px 180px;
+}
+.footer-content{
+    margin: auto;
+}
+.list-title{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.link-l{
+    color: #707B8F;
+    font-size: 14px;
+    text-decoration: none;
+}
+.link-item{
+    margin-bottom:5px
+}
+.link-item-m{ 
+    margin-bottom: 7px;
+}
+.link-list,.contact-list{
+    margin-top: 10px;
+    list-style:none;
+}
+.link-l-brand{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+.contact-info{
+    width: 200px;
+}
+.no{
+    margin: 8px 0px;
+}
+.link-item-s{
+    display:inline-block;
+    margin-right: 5px;
+}
+.links,.contact-info,.student-notes,.social-link{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 35px;
+}
+.copyright-disc{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.section-title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    color: #1E283C;
+}
+.section-title-below {
+    font-size: 14px;
+    margin-top: 12px;
+}
+.two-line{
+    width: 600px;
+    margin: 20px auto;
+    line-height: 25px;
+}
+
+
+/* *************************Pricing Section*************************** */
+.pricing-sec{
+    background-color: rgb(255, 255, 244);
+    padding: 50px 140px 70px;
+}
+.price{
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.pricing-section{
+    color: grey;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-section a:hover{
+   text-decoration: none;
+}
+.pricing-section a{
+    color: grey;
+}
+.price-card-title{
+    font-size: 30px;
+    font-weight: 500; 
+    color: #05bffc;
+}
+.price-point{
+    font-size: 35px;
+    color: rgb(255 118 31);
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.middle-line{
+    width: 50%;
+    margin: auto;
+}
+.below-content{
+    margin: 15px 0px 30px;
+}
+.bg-txt{
+    font-size: 35px;
+    color: black;
+}
+.choose-btn a{
+    color: white;
+    font-size: 22px;
+}
+.choose-btn{
+    display: inline-block;
+}
+.ch-btn{
+    padding: 8px 20px;
+    background-color: rgb(255 118 31);
+    border-radius: 6px;
+}
+.price-card:hover{
+   box-shadow:1px 1px 18px rgb(46 152 240);
+}
+.price-card{
+    box-shadow: 1px 1px 10px rgb(133, 132, 132);
+    width: 290px;
+    padding: 20px 0px;
+    margin: 20px 0px;
+    background-color: white;
+    border-radius: 6px;
+}
+.is-active{
+    position: relative;
+    margin: 0px;
+    border: 4px solid rgb(46 152 240);
+    box-shadow: rgb(46 152 240) 1px 1px 10px;
+}
+.mar-tops{
+    margin-top: 27px;
+}
+.abs-rec{
+    background-color:rgb(46 152 240);
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    left: 0;
+}
+.chng{
+    background-color: rgb(46 152 240);
+}
+
+
+
+/***********Desktop View(992px and 1199px)***********/
+@media (min-width:992px) and (max-width:1199px){
+    .navbar {
+        padding: 0px 50px !important;
+    }
+    .hide{
+        display: none;
+    }
+    .search-bar {
+        width: 40%;
+    }
+    .container-below-nav {
+        padding: 50px 70px 0px;
+    }
+    .info {
+        width: 60%;
+    }
+    .container-partner {
+        padding: 20px 60px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .courses-offered {
+        padding: 20px 60px;
+    }
+    .img-pg-card img {
+        width: 270px;
+        height: 190px;
+    }
+    .info-mnths {
+        display: none;
+    }
+    .margn{
+        margin-bottom: 5px;
+    }
+    .feature-section {
+        padding: 50px 60px;
+    }
+    .margin {
+        margin: 0px;
+    }
+    .middle{
+        margin: 0px 10px;
+    }
+    .features {
+        display: flex;
+        justify-content: space-between;
+    }
+    .feature-card {
+        width: 230px;
+    }
+    .master-card-detail {
+        padding: 35px 15px 18px;
+    }
+    .c-course{
+        padding: 16px 15px;
+        flex: 0 0 270px;
+    }
+    .m-course {
+        width: 270px;
+    }
+    .pg-course {
+        width: 270px;
+    }    
+    .detail-pg-card {
+        padding: 15px 11px;
+    }
+    .through-umass {
+        height: 50px;
+        width: 100px;
+    }
+    .through-caltech {
+        height: 50px;
+        width: 100px;
+    }
+    .team-training-section {
+        padding: 40px 60px;
+    }
+    .training-title {
+        font-size: 40px;
+    }
+    .left-section-training {
+        width: 380px;
+    }
+    .right-section-training {
+        width: 460px;
+        padding: 0px 0 32px 60px;
+    }    
+    .awards-section {
+        padding: 30px 60px;
+        text-align: center;
+    }
+    .award {
+        margin: 20px 30px;
+        width: 130px;
+    }
+    .awards-title {
+        margin-bottom: 30px;
+    }
+    /* sub-title */
+    .sub-title-section {
+        font-size: 35px;
+        padding: 90px 0px;
+    }
+    /* sub-title */
+    .weight {
+        width: 740px;
+    }
+    /* querry -section */
+    .querry-section{
+        padding: 20px 70px 30px;
+    }
+    .querry-image {
+        height: 350px;
+        width: 450px;
+        margin-left: 0px;
+    }
+    .input-field{
+        margin-left: 0px;
+    }
+    /* footer container */
+    .footer-container{
+        padding: 40px 60px 20px;
+    }
+    .footer-content{
+        width: auto;
+    }
+    .links, .contact-info, .student-notes, .social-link {
+       margin-right: 25px;
+    }
+    .contact-info{
+        margin-right: 0px;
+    }
+    #name-input, #email-input, #subject-input,#message-input{
+        width: 350px;
+    }
+    .hide{
+        display: none;
+    }
+}
+/***********Medium Desktop View(767px and 992px)***********/
+@media (min-width:768px) and (max-width:991px){
+    .navbar {
+        padding: 0px 50px !important;
+    }
+    .hide{
+        display: inline-block;
+    }
+    .search-bar {
+        width: 40%;
+    }
+    .container-below-nav {
+        padding: 50px 60px 0px;
+    }
+    .info {
+        width: 100%;
+        text-align: center;
+    }
+    .adv-item {
+        margin-right: 15px;
+    }
+    .courses-list{
+        display: block;
+    }
+    .container-partner {
+        padding: 20px 60px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .courses-offered {
+        padding: 20px 60px;
+    }
+    .img-pg-card img {
+        width: 300px;
+        height: 200px;
+    }
+    .info-mnths {
+        display: none;
+    }
+    .margn{
+        margin-bottom: 20px;
+    }
+    
+    .feature-section {
+        padding: 0px 60px 30px;
+    }
+    .margin {
+        margin: 0px;
+    }
+    .middle{
+        margin: 0px 10px;
+    }
+    .features {
+        display: flex;
+        justify-content: space-between;
+    }
+    .feature-card {
+        width: 210px;
+    }
+    .last-card-feature{
+        display: none;
+    }
+    .master-card-detail {
+        padding: 35px 15px 18px;
+    }
+    .m-course {
+        width: 290px;
+        display: inline-block;
+    }
+    .c-course{
+        padding: 16px 15px;
+        width: 300px;
+        margin: 0px 5px;
+    }
+    .pg-course {
+        width: 300px;
+        display: inline-block;
+    }    
+    .detail-pg-card {
+        padding: 15px 11px;
+    }
+    .through-umass {
+        height: 50px;
+        width: 100px;
+    }
+    .through-caltech {
+        height: 50px;
+        width: 100px;
+    }
+    .team-training-section {
+        padding: 40px 60px;
+    }
+    .training-title {
+        font-size: 40px;
+    }
+    .left-section-training {
+        width: auto;
+    }
+    .right-section-training {
+        width: auto;
+        padding: 0px 0 32px 60px;
+    }    
+    .brand {
+        width: 150px;
+        height: 70px;
+        margin-right: 28px;
+        margin-bottom: 24px;
+    }
+    .awards-section {
+        padding: 30px 60px;
+        text-align: center;
+    }
+    .award {
+        margin: 20px 30px;
+        width: 130px;
+    }
+    .margin-top{
+        margin: auto;
+        width: 268px;
+        margin-top: 40px;
+    }
+    .awards-title {
+        margin-bottom: 30px;
+    }
+    /* sub-title */
+    .sub-title-section{
+        font-size: 35px;
+        line-height: 50px;
+        padding: 80px 0px;
+    }
+    /* sub-title */
+    .weight {
+        width: 600px;
+    }
+    /* querry-section */
+    .querry-section {
+        padding: 20px 30px;
+    }
+    .querry-image {
+        display: none;
+    }
+    .input-field{
+        display: block;
+        margin-left: 0px;
+    }
+    .input{
+        margin: auto;
+        width: 351px;
+    }
+    .msg-btn {
+        margin:auto;
+    }
+    /* footer-section */
+    .footer-container{
+        padding: 30px 20px 20px;
+    }
+    .links, .contact-info, .student-notes, .social-link {
+        margin-right: 15px;
+    }
+    .social-link{
+        display: block;
+        margin: auto;
+       width: 154px;
+       margin-bottom: 15px;
+    }
+    #name-input, #email-input, #subject-input,#message-input {
+        width: 350px;
+    }
+    .last{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .mar-right{
+        margin-right: 20px;
+    }
+    .none{
+        display: none;
+    }
+}
+/***********Mobile medium View(566px and 767px)***********/
+@media (min-width:567px) and (max-width:767px) {
+    .navbar {
+        padding: 0px 10px !important;
+    }
+    .hide{
+        display: inline-block;
+    }
+    .search-bar {
+        width: 40%;
+    }
+    .container-below-nav {
+        padding: 50px 20px 0px;
+    }
+    .info {
+        width: 100%;
+        text-align: revert;
+    }
+    .explore-btn {
+        text-align: center;
+    }
+    .adv-item {
+        margin-right: 15px;
+    }
+    .courses-list{
+        display: block;
+        text-align: center;
+    }
+    .container-partner {
+        padding: 20px 10px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .courses-offered {
+        padding: 20px;
+    }
+    .adv-item{
+        display: block;
+    }
+    .img-pg-card img {
+        width: 360px;
+        height: 230px;
+    }
+    .info-mnths {
+        display: block;
+    }
+    .margn{
+        margin-bottom: 20px;
+    }
+    
+    .feature-section {
+        padding: 0px 10px 30px;
+    }
+    .margin {
+        margin: 0px;
+    }
+    .middle{
+        margin: 0px 10px;
+    }
+    .features {
+        display: block;
+        text-align: center;
+    }
+    .feature-card {
+        width: 230px;
+        text-align: initial;
+        margin-bottom: 20px;
+    }
+    .last-card-feature{
+        display: none;
+    }
+    .master-card-detail {
+        padding: 35px 15px 18px;
+    }
+    .m-course {
+        width: 360px;
+        display: inline-block;
+        text-align: initial;
+        margin: 20px 0px;
+    }
+    .c-course{
+        padding: 16px 15px;
+        width: 370px;
+        margin: 20px 0px;
+    }
+    .pg-course {
+        text-align: initial;
+        width: 360px;
+        display: inline-block;
+        margin: 15px 0px;
+    }    
+    .detail-pg-card {
+        padding: 15px 11px;
+    }
+    .through-umass {
+        height: 50px;
+        width: 120px;
+    }
+    .through-caltech {
+        height: 50px;
+        width: 120px;
+    }
+    .team-training-section {
+        padding: 40px 10px;
+    }
+    .training-title {
+        font-size: 40px;
+    }
+    .left-section-training {
+        width: auto;
+    }
+    .right-section-training {
+        padding: 0px;
+        display: block;
+    }    
+    .brand {
+        width: 150px;
+        height: 70px;
+        margin-right: 28px;
+        margin-bottom: 24px;
+    }
+    .awards-section {
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .award {
+        margin: 20px 30px;
+        width: 130px;
+    }
+    .margin-top{
+        margin: auto;
+        width: 268px;
+        margin-top: 40px;
+    }
+    .awards-title {
+        margin-bottom: 30px;
+    }
+    /* sub-title */
+    .sub-title-section{
+        font-size: 30px;
+        line-height: 45px;
+        padding: 70px 0px;
+    }
+    .sub-title {
+        width: 500px;
+    } 
+    /* sub-title */
+    .weight {
+        width: 480px;
+    }
+     /* querry-section */
+     .querry-section {
+        padding: 20px 30px;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+    .hide{
+        display: none;
+    }
+    .querry-image {
+        display: none;
+    }
+    .input-field{
+        float: none;
+    }
+    .input-field{
+        display: block;
+        margin-left: 0px;
+    }
+    .input{
+        margin: 0px auto;
+        width: 300px;
+    }
+    .input{
+        margin: auto;
+        width: 351px;
+    }
+    #name-input, #email-input, #subject-input,#message-input {
+        width: 350px;
+    }
+    .msg-btn{
+        margin: auto;
+    }
+    /* footer-section */
+    .footer-container{
+        padding: 30px 20px 20px;
+    }
+    .footer-content{
+        width: auto;
+    }
+    .links, .contact-info, .student-notes, .social-link {
+        margin-right: 25px;
+    }
+    .social-link{
+        display: block;
+        margin: auto;
+       width: 154px;
+       margin-bottom: 15px;
+    }
+}
+/***********Mobile View(567px)***********/
+@media (max-width:566px){
+    .navbar {
+        padding: 0px 10px !important;
+    }
+    .bold-heading {
+        font-size: 40px;
+    }
+    .below-tagline-details {
+        font-size: 16px;
+    }
+    .explore {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+    .hide{
+        display: inline-block;
+    }
+    .search-bar {
+        width: 40%;
+    }
+    .container-below-nav {
+        padding: 50px 10px 0px;
+    }
+    .info {
+        width: 100%;
+        text-align: revert;
+    }
+    .explore-btn {
+        text-align: center;
+    }
+    .adv-item {
+        margin-right: 15px;
+    }
+    .courses-list{
+        display: block;
+        text-align: center;
+    }
+    .container-partner {
+        padding: 20px 10px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .courses-offered {
+        padding: 20px;
+    }
+    .adv-item{
+        display: block;
+    }
+    .img-pg-card img {
+        width: 310px;
+        height: 230px;
+    }
+    .info-mnths {
+        display: block;
+    }
+    .margn{
+        margin-bottom: 20px;
+    }
+    
+    .feature-section {
+        padding: 0px 10px 30px;
+    }
+    .margin {
+        margin: 0px;
+    }
+    .middle{
+        margin: 0px 10px;
+    }
+    .features {
+        display: block;
+        text-align: center;
+    }
+    .feature-card {
+        width: 290px;
+        text-align: initial;
+        margin-bottom: 20px;
+    }
+    .last-card-feature{
+        display: none;
+    }
+    .master-card-detail {
+        padding: 35px 15px 18px;
+    }
+    .m-course {
+        width: 310px;
+        display: inline-block;
+        text-align: initial;
+        margin: 20px 0px;
+    }
+    .c-course{
+        padding: 16px 15px;
+        width: 310px;
+        margin: 20px 0px;
+    }
+    .pg-course {
+        text-align: initial;
+        width: 310px;
+        display: inline-block;
+        margin: 15px 0px;
+    }    
+    .detail-pg-card {
+        padding: 15px 11px;
+    }
+    .through-umass {
+        height: 50px;
+        width: 120px;
+    }
+    .through-caltech {
+        height: 50px;
+        width: 120px;
+    }
+    .team-training-section {
+        padding: 40px 10px;
+    }
+    .training-title {
+        font-size: 35px;
+    }
+    .left-section-training {
+        width: auto;
+    }
+    .right-section-training {
+        display: none;
+    }    
+    .brand {
+        width: 150px;
+        height: 70px;
+        margin-right: 28px;
+        margin-bottom: 24px;
+    }
+    .awards-section {
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .award {
+        margin: 10px 20px;
+        width: 110px;
+    }
+    .margin-top{
+        margin: auto;
+        width: 268px;
+        margin-top: 40px;
+    }
+    .awards-title {
+        margin-bottom: 30px;
+    }
+    /* sub-title */
+    .sub-title-section {
+        font-size: 25px;
+        line-height: 35px;
+        padding: 70px 15px;
+    }
+    .sub-title {
+        width: 350px;
+    }
+    .querry-section {
+        padding: 40px 15px 0px;
+    }
+    .section-title {
+        font-size: 30px;
+    }
+    .section-title-below {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    .two-line {
+        width: 470px;
+    }
+    .hide{
+        display: none;
+    }
+    .querry-image {
+        display: none;
+    }
+    .input-field{
+        float: none;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .input{
+        margin: 0px auto;
+        width: 300px;
+    }
+    #name-input, #email-input, #subject-input {
+        width: 300px;
+    }
+    #message-input {
+        width: 300px;
+    }
+    .msg-btn{
+        margin: auto;
+    }
+    /* footer-container */
+    .footer-container{
+        padding: 30px 15px 20px;
+    }
+    .links{
+        display: none;
+    }
+    .contact-info{
+        width: auto;
+    }
+    .contact-info,.social-link,.student-notes{
+        margin-bottom: 20px;
+    }
+}
+
